@@ -1,0 +1,102 @@
+.heroSection{
+    padding: 4.5rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 2rem;
+}
+.topText{
+    font-size: 35px;
+    padding-top: 1.2rem;
+    font-weight: 500;
+}
+.midText{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 75px;
+    padding-right: 5rem;
+}
+.midText>span{
+    color: orange
+}
+.bottomText{
+    padding: 1.5rem 0;
+    color: #777577;
+    font-size: 14px;
+    font-weight: 500;
+}
+.imageSection > img{
+    width: 96%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.searchBar{
+    background-color: white;
+    padding: 1rem 1.3rem;
+    border-radius: 12px;
+    width: 60%;
+}
+.searchBar>input{
+    position: relative;
+    border: none;
+    border-right: 1px solid #777577;
+    outline: none;
+    padding-left: 1.4rem;
+    font-weight: 500;
+}
+.Icon{
+    position: absolute;
+    color: #777577;
+    z-index: 1;
+    top: 34.8rem;
+    left: 7.5rem;
+}
+.Icon2{
+    position: absolute;
+    color: #777577;
+    z-index: 1;
+    top: 34.8rem;
+    left: 20rem;
+}
+.Icon3{
+    position: absolute;
+    color: #777577;
+    z-index: 1;
+    top: 34.8rem;
+    left: 32.2rem;
+}
+.Icon4{
+    position: absolute;
+    color: #777577;
+    z-index: 1;
+    top: 34.8rem;
+    left: 38.2rem;
+}
+.searchBar>button{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px 1.7rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+}
+.popSearch{
+    padding: 2rem 0;
+    color: #777577;
+    font-size: 14px;
+    font-weight: 500;
+}
+.popSearch > span{
+    padding: 3px 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 0 5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.popSearch > span:nth-child(1){
+    background: black;
+    border-color: black;
+    color: white;
+}

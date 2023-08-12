@@ -1,0 +1,39 @@
+.navBar{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 1rem 0 5px;
+    border-bottom: 2px solid;
+    border-color: #d7d7d7;
+}
+.navTitle{
+    font-size: 32px;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+    padding: 0 25px;
+}
+.navLinks > a{
+    color: #8B8A87;
+    float: left;
+    font-weight: 500;
+    line-height: 36px;
+}
+.navButtons{
+    margin-left: auto;
+}
+.navButtons > a{
+    color: black;
+    font-weight: 500;
+}
+.navButtons > button{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 7px 1.7rem;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #F9F8F4;
+}
+button:hover{
+    cursor: pointer;
+}
